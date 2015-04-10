@@ -1,3 +1,10 @@
-(function () { 'use strict';
+$( document ).ready(function() {
 
-}()); // end 'use strict'
+
+  $( "#insert-svg" ).load( "pebble-svg-2.html");
+
+
+
+
+
+});

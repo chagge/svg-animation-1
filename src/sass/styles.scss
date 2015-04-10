@@ -13,6 +13,16 @@
 $paper:  white;
 $ink:    black;
 
+$pink: #E94F7E;
+$orange: #F7AC41;
+$green: #A3C750;
+$bluegreen: #40B8BC;
+$blue: #14A1DC;
+$grey: #6B7482;
+$purple: #9A5CA0;
+
+
+
 //===============================================================================
 // BASCIS
 //===============================================================================
@@ -32,7 +42,7 @@ ul {
 
 html,
 body {
-  background-color: $paper;
+  background-color: $pink;
   color: $ink;
   font-family: sans-serif;
   line-height: 1.4;
@@ -41,4 +51,39 @@ body {
 //===============================================================================
 // STYLES
 //===============================================================================
+
+.path-anim {
+  animation: draw 3s forwards;
+}
+
+
+@-webkit-keyframes draw {
+  from{}
+ 
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+@keyframes draw {
+  from{}
+ 
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
