@@ -1,10 +1,11 @@
 $( document ).ready(function() {
 
+//insert svg content and draw on load
 
   $( "#insert-svg" ).load("pebble-svg.html", function() {
 
      var current_frame = 0;
-    var total_frames = 60;
+    var total_frames = 120;
     var path = [];
     var length = [];
 
@@ -33,19 +34,7 @@ $( document ).ready(function() {
     };
     draw();
 
-
-
   });
-
-
-
-
-
-  // $('#run').click(function() {
-
-   
-
-  // });
 
 
 
